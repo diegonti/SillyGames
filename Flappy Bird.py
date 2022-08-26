@@ -74,7 +74,7 @@ end_rectangle = end_surface.get_rect(center = (w/2,h/2))
 go_text = font32.render("GAME OVER", True, red)
 go_rectangle = go_text.get_rect(center = (end_surface.get_width()/2,50))
 
-return_img = pygame.image.load("pong/return_arrow.png")
+return_img = pygame.image.load("Files/return_arrow.png")
 return_rect = return_img.get_rect(center = (w/2,h/2+40))
 
 
